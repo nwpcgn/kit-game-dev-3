@@ -2,7 +2,6 @@
 	import { _user } from '$lib/data'
 	import { Section } from '$lib'
 	export let data
-	console.log(data.pageDb)
 	$: ({ titel, body, games } = data.pageDb)
 </script>
 
@@ -21,7 +20,7 @@
 				<nav class="list-group list-group-flush rounded">
 					{#each games as { path, name }, i}
 						<a
-							href="/games/{i}"
+							href="/games/{path}"
 							data-slug={path}
 							role="button"
 							class="list-group-item list-group-item-action fs-5">

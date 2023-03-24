@@ -4,6 +4,7 @@ export { default as NwpLogo } from './components/_NwpLogo.svelte';
 export { default as AppBar } from './components/AppBar.svelte';
 export { default as Collapse } from './components/Collapse.svelte';
 export { default as FlexRow } from './components/FlexRow.svelte';
+export { default as Layer } from './components/Layer.svelte';
 export { default as Layout } from './components/Layout.svelte';
 export { default as Loader } from './components/Loader.svelte';
 export { default as Page } from './components/Page.svelte';

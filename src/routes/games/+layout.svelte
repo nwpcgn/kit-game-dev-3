@@ -1,8 +1,2 @@
-<script>
-	import { Page } from '$lib'
-	export let data
-</script>
+<slot />
 
-<Page location={data.pathname}>
-	<slot />
-</Page>
